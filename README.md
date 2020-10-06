@@ -10,12 +10,13 @@ Encrypter.py contains a class that initialises the GUI interface and using the w
 
 
 To make into EXE, run following command in terminal in this directory
-
+```terminal
 pyinstaller -w -F encrypter.py
-
+```
 The EXE file will be contained in the dist directory (EXE file can be run without any external files)
 
 
 To run tests, run following command in terminal in this directory
-
+```python
 pytest tests
+```
